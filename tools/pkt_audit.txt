@@ -1,0 +1,7 @@
+packets walked: 850
+packets where count != messages parsed: 0
+packet length min=1254 max=1470
+
+packet 277: offset=403259  offset%4096=1851  len=1460  count=49  msgs=49
+packet 276: offset=401798  len=1461  count=51  msgs=51
+first 50 packets whose start is not 8-byte aligned: 38

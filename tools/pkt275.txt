@@ -1,0 +1,26 @@
+packets: 850
+
+packet 275 detail:
+  off=400332  len=1466  cnt=52
+  start%4096=3020 end%4096=390 wraps=True
+  message lengths: min=19 max=36
+  zero-length messages: 0
+  boundaries on a word boundary: 9 of 53
+
+comparison with earlier packets:
+  idx=270 off= 393056 len=1467 cnt=53 start%4096=3936 wraps=True
+  idx=271 off= 394523 len=1447 cnt=51 start%4096=1307 wraps=False
+  idx=272 off= 395970 len=1463 cnt=52 start%4096=2754 wraps=True
+  idx=273 off= 397433 len=1447 cnt=50 start%4096= 121 wraps=False
+  idx=274 off= 398880 len=1452 cnt=50 start%4096=1568 wraps=False
+  idx=275 off= 400332 len=1466 cnt=52 start%4096=3020 wraps=True
+  idx=276 off= 401798 len=1461 cnt=51 start%4096= 390 wraps=False
+  idx=277 off= 403259 len=1460 cnt=49 start%4096=1851 wraps=False
+  idx=278 off= 404719 len=1468 cnt=53 start%4096=3311 wraps=True
+  idx=279 off= 406187 len=1465 cnt=52 start%4096= 683 wraps=False
+
+earlier packets with cnt==52: [8, 12, 15, 18, 22, 23, 24, 34, 38, 43, 44, 46]
+  ... total 65
+earlier packets that wrap AND have cnt==52: [8, 22, 70, 73, 78, 87, 90, 95, 104, 109, 112, 157]
+
+packet 275 len=1466; count of packets with that length: 34

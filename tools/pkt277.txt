@@ -1,0 +1,24 @@
+packets: 850
+
+packet 275: off=400332-4096*97 len=1466 cnt=52
+  boundary offsets mod 8 seen: [0, 1, 2, 3, 4, 5, 6, 7]
+  messages whose length prefix straddles a word (mod 8 == 7): [17, 21, 30, 41, 47]
+
+packet 276: off=401798-4096*98 len=1461 cnt=51
+  boundary offsets mod 8 seen: [0, 1, 2, 3, 4, 5, 6, 7]
+  messages whose length prefix straddles a word (mod 8 == 7): [11, 20, 28, 31, 36, 44]
+
+packet 277: off=403259-4096*98 len=1460 cnt=49
+  boundary offsets mod 8 seen: [0, 1, 2, 3, 4, 5, 6, 7]
+  messages whose length prefix straddles a word (mod 8 == 7): [0, 3, 16, 24, 36, 46]
+
+first packets with count==51: [14, 16, 21, 26, 30]
+
+cumulative byte positions:
+  idx=  0 off=       0 off%4096=   0 end%4096=1463
+  idx=  2 off=    2920 off%4096=2920 end%4096= 290
+  idx= 14 off=   20378 off%4096=3994 end%4096=1360
+  idx=100 off=  145578 off%4096=2218 end%4096=3685
+  idx=275 off=  400332 off%4096=3020 end%4096= 390
+  idx=276 off=  401798 off%4096= 390 end%4096=1851
+  idx=277 off=  403259 off%4096=1851 end%4096=3311
